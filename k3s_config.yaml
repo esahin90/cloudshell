@@ -1,0 +1,6 @@
+write-kubeconfig: /home/user/.kube/config
+write-kubeconfig-mode: "0644"
+disable:
+  - "traefik"
+  - "servicelb"
+  - "metrics-server"
